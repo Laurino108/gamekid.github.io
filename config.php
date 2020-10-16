@@ -3,9 +3,9 @@ $username = filter_input(INPUT_POST, 'username');
 $password = filter_input(INPUT_POST, 'password');
 if (!empty($username)){
 if (!empty($password)){
-$host = "localhost";
-$dbusername = "root";
-$dbpassword = "";
+$host = "db4free.net";
+$dbusername = "gamekid";
+$dbpassword = "l1080510";
 $dbname = "gamekid";
 // Create connection
 $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
