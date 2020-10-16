@@ -1,7 +1,7 @@
 <?php
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-define('DB_SERVER', 'gamekid@localhost');
+define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'gamekid');
 define('DB_PASSWORD', 'l1080510');
 define('DB_NAME', 'gamekid');
